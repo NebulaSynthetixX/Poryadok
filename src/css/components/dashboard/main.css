@@ -28,8 +28,208 @@ body {
 
 .top__hello > span {
     font-family: var(--font-secondary);
+    color: var(--txt-main);
 }
 
 .top__hello {
     font-weight: 550;
+    color: var(--txt-main);
+}
+
+.main__alert {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+
+    padding: 20px 200px 20px 40px;
+    border: 1px solid var(--acc-sec);
+    border-radius: 15px;
+
+    margin: 30px 0;
+}
+
+.alert__top {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.alert__time {
+    color: var(--acc-main);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.alert__title {
+    font-weight: 500;
+    color: var(--txt-main);
+}
+
+.masterise__zone {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.masterise__text {
+    color: var(--txt-secondary);
+    font-weight: 550;
+}
+
+.masterise__progress {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+}
+
+.masterise__progress-bar {
+    width: 100px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: var(--acc-sec);
+}
+
+.masterise__progress-percents {
+    color: var(--txt-secondary);
+    font-weight: 550;
+}
+
+.progress__fill {
+    width: 64px;
+    height: 100%;
+    background-color: var(--txt-main);
+    border-radius: 5px;
+}
+
+.alert__button {
+    padding: 8px 13px;
+    color: var(--bg-secondary);
+    background-color: var(--txt-main);
+    border-radius: 9px;
+    border: 2px solid var(--txt-main);
+    font-weight: 525;
+    width: fit-content;
+
+    transition: all ease-in-out .3s;
+}
+
+.alert__button:hover {
+    background: var(--bg-secondary);
+    color: var(--txt-main);
+
+    transform: scale(1.01) translateY(-3px);
+}
+
+.aRevoir {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    text-align: left;
+
+    gap: 20px;
+
+    width: calc(100% - 55%);
+}
+
+.aRevoir__title-title {
+    color: var(--txt-main);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.aRevoir__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+
+    border-top: 1px solid var(--acc-sec);
+    border-bottom: 1px solid var(--acc-sec);
+
+    transition: all ease-in-out .2s;
+}
+
+.aRevoir__card:hover {
+    padding: 10px 10px;
+}
+
+.aRevoir__card.active {
+    border-top: none;
+}
+
+.card__subject-type {
+    color: var(--txt-secondary);
+}
+
+.card__subject {
+    font-weight: 400;
+}
+
+.card__right {
+    display: flex;
+    gap: 12px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.card__card-number {
+    color: var(--txt-secondary);
+}
+
+.card__fragile {
+    color: var(--acc-main);
+    padding: 4px 10px;
+    border-radius: 20px;
+    
+    background-color: #537caf44;
+}
+
+.aRevoir__seeAll {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.seeAll__button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: var(--txt-secondary);
+
+    transition: all ease-in-out .2s;
+}
+
+.seeAll__button:hover {
+    background-color: var(--acc-sec);
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 120px;
+    width: calc(100% - 60%);
+}
+
+.time__text {
+    color: var(--txt-secondary);
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.time__right {
+    gap: 10px;
+    display: flex;
+}
+
+.time__button {
+    padding: 6px 15px;
+    border: 1px solid var(--acc-sec);
+    border-radius: 50px;
+    font-weight: 500;
 }
