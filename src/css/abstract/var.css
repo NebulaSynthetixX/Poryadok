@@ -1,0 +1,18 @@
+:root {
+    /* BG */
+    --bg-main: #fff;
+    --bg-secondary: #FAFAF9;
+    --bg-alternative: #fdfdfc;
+
+    /* TXT */
+    --txt-main: #0A0A0A;
+    --txt-secondary: #6B6B6B;
+
+    /* div */
+    --acc-main: #3452E1;
+    --acc-sec: #E5E4E1;
+
+    --font-main: 'Geist', -apple-system, sans-serif;
+    --font-title: 'Cinzel Decorative', -apple-system, sans-serif;
+    --font-secondary: 'Nothing You Could Do', -apple-system, sans-serif;
+}
