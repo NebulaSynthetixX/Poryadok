@@ -27,7 +27,8 @@ body {
 }
 
 .top__hello > span {
-    font-family: var(--font-secondary);
+    font-family: var(--font-main);
+    font-style: italic;
     color: var(--txt-main);
 }
 
