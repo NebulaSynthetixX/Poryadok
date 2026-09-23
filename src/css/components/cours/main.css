@@ -12,3 +12,95 @@ body {
 
     padding: 20px 40px;
 }
+
+.main__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.top__location {
+    font-size: 17px;
+}
+
+.top__location > span {
+    font-weight: 600;
+}
+
+.button__add-chapter {
+    padding: 10px 17px;
+    border-radius: 12px;
+    border: none;
+    color: var(--bg-secondary);
+    background-color: var(--txt-main);
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: space-between;
+}
+
+.button__add-chapter:hover {
+    cursor: pointer;
+}
+
+.button__add-chapter > i {
+    font-size: 19px;
+}
+
+.main__subject-selection {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.subjects__zone {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+
+    padding: 0 0 50px 0;
+
+    border-bottom: 1px solid var(--acc-sec);
+}
+
+.subject__subject {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid var(--acc-sec);
+    padding: 18px 22px;
+    border-radius: 20px;
+
+    transition: all ease-in-out .2s;
+}
+
+.subject__subject:hover {
+    cursor: pointer;
+    transform: translateY(-6px);
+}
+
+.subject__subject > i {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--txt-secondary);
+}
+
+.subject__subject > i.active {
+    color: var(--acc-main);
+}
+
+.subject__name {
+    font-size: 17px;
+    font-weight: 550;
+    letter-spacing: .8px;
+    font-size: 18px;
+}
+
+.subject__chapter-count {
+    color: var(--txt-secondary);
+    font-size: 15px;
+}
