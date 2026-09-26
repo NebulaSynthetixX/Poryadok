@@ -104,3 +104,31 @@ body {
     color: var(--txt-secondary);
     font-size: 15px;
 }
+
+.subject__add-subject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: var(--bg-alternative);
+
+    border: 1px solid var(--acc-sec);
+    color: var(--txt-secondary);
+
+    border-radius: 20px;
+    font-size: 16px;
+    height: 130px;
+
+    transition: all ease-in-out .2s;
+}
+
+.subject__add-subject > i {
+    font-size: 30px;
+}
+
+.subject__add-subject:hover {
+    cursor: pointer;
+    transform: translateY(-6px);
+}
